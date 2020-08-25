@@ -1,0 +1,14 @@
+Class: Airport
+
+Attributes:
+numberOfPlanes (integer)
+restaurants (array)
+underConstruction (boolean)
+airline (string)
+
+
+Methods:
+takeOff (subtracts numberOfPlanes by 1)
+openNewRestaurant (adds new restaurant name to restaurants array)
+crashPlane (changes underConstruction to true)
+changeItinerary (updates airline)
